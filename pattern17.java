@@ -30,7 +30,7 @@ class pattern17{
 			System.out.print(" ");
 		System.out.print("*");
 		System.out.println();
-		c=n/2;
+		//c=n/2;
 		int c1=1;
 		for(int i=n/2+2;i<=n;i++){
 			for(int j=1;j<=c1;j++){
@@ -39,10 +39,10 @@ class pattern17{
 			c1++;
 			System.out.print("*");
 			if(i<n){
+				c-=2;
 				for(int j=1;j<=c;j++)
 					System.out.print(" ");
 				System.out.print("*");
-				c-=2;
 			}
 			
 			System.out.println();
